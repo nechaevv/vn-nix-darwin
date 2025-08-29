@@ -6,5 +6,9 @@
 
         # Set Git commit hash for darwin-version.
         configurationRevision = self.rev or self.dirtyRev or null;
+        defaults = {
+          dock.autohide = true;
+          NSGlobalDomain."com.apple.mouse.tapBehavior" = 1;
+        };
     };
 }

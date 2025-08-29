@@ -3,6 +3,7 @@
   imports = [
     ./apps.nix
     ./git.nix
+    ./settings.nix
     ./shell.nix
   ];
 
