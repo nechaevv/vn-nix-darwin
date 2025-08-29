@@ -34,14 +34,13 @@
 
     # `brew install --cask`
     casks = [
-      # Messengers
       "discord"
-      "telegram"
-      # CAD
+      "firefox"
       "freecad"
-      "openscad"
-      # Productivity
+      "google-chrome"
       "obsidian"
+      "openscad"
+      "telegram"
     ];
   };
 }
