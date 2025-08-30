@@ -15,4 +15,22 @@
 #    urlencode = "python3 -c 'import sys, urllib.parse as ul; print(ul.quote_plus(sys.stdin.read()))'";
 #  };
 
+  programs.starship = {
+    enable = true;
+
+    enableBashIntegration = true;
+    enableZshIntegration = true;
+    enableNushellIntegration = true;
+
+    settings = {
+      character = {
+        success_symbol = "[›](bold green)";
+        error_symbol = "[›](bold red)";
+      };
+      aws = {
+        symbol = "🅰 ";
+      };
+    };
+  };
+
 }
