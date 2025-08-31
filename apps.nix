@@ -34,14 +34,20 @@
 
     # `brew install --cask`
     casks = [
+      "adobe-creative-cloud"
       "discord"
+      "dropbox"
       "firefox"
       "freecad"
       "google-chrome"
+      "intellij-idea"
+      "microsoft-teams"
       "obsidian"
       "openscad"
       "telegram"
       "ultimaker-cura"
+      "wacom-tablet"
+      "zoom"
     ];
   };
 }
