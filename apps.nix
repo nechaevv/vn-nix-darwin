@@ -41,6 +41,7 @@
       "obsidian"
       "openscad"
       "telegram"
+      "ultimaker-cura"
     ];
   };
 }
