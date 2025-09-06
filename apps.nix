@@ -40,6 +40,7 @@
       "firefox"
       "freecad"
       "google-chrome"
+      "imaging-edge"
       "intellij-idea"
       "microsoft-teams"
       "obsidian"
