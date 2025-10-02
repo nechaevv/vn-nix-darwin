@@ -10,6 +10,7 @@
 
   environment.systemPackages = with pkgs; [
     git
+    mas
     neovim
   ];
 
@@ -25,9 +26,11 @@
     # You need to install all these Apps manually first so that your apple account have records for them.
     # otherwise Apple Store will refuse to install them.
     # For details, see https://github.com/mas-cli/mas
-    # masApps = {
-    #       Xcode = 497799835;
-    # };
+    masApps = {
+      xcode = 497799835;
+      telegram = 747648890;
+      faa-private-pilot-prep = 552933297;
+    };
 
     # `brew install`
     # brews = [];
@@ -35,6 +38,7 @@
     # `brew install --cask`
     casks = [
       "adobe-creative-cloud"
+      "clion"
       "discord"
       "dropbox"
       "firefox"
@@ -45,7 +49,8 @@
       "microsoft-teams"
       "obsidian"
       "openscad"
-      "telegram"
+      "spotify"
+      # "telegram" - install through AppStore
       "ultimaker-cura"
       "wacom-tablet"
       "zoom"
